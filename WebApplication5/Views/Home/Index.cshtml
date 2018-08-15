@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12" style="text-align:center">
+        <h1 class="section-heading wow fadeInUp" style="font-family:Georgia;font-weight:bold">Video Downloader</h1>
+        <p class="section-desc wow fadeInUp">Download Videos from Twitter - Online Downloader</p>
+    </div>
+</div>
+
+<div class="row" style="padding-top:40px">
+    <form class="form-horizontal" method="POST" action="/Download">
+        <div class="form-group">
+            <div class="col-md-12">
+                <input id="url" class="form-control" style="font-size:24px; padding-top:20px;padding-bottom:20px"
+                       placeholder="Enter Twitter video url you would like to download				" type="text" name="url"
+                       value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-lg btn-success text-center">
+                    download
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="row" style="padding-top:40px">
+    How to Download Twitter Videos?
+</div>
